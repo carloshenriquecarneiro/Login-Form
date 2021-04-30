@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient( to right, rgba(142, 37, 184, 0.867), rgb(79, 197, 240));
+    min-width: 100vw;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+main.container {
+    background: white;
+    max-width: 100%;
+    min-height: 60vh;
+    padding: 4rem;
+    position: relative;
+    left: 2rem;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.432);
+
+}
+
+
+main h2 {
+    text-align: center;
+    position: relative;
+    bottom: 2rem;
+    right: 0.2rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding:9px;
+    
+}
+
+
+.input-field input {
+    outline: none;
+    
+}
+
+.input-field .i2  {
+    color:#974BC4;
+}
+
+.input-field .i3 {
+    color:#54BFEE;
+}
+
+.notebook {
+    position: relative;
+    left: 5rem;
+    background: rgb(226, 226, 226);
+    border-radius: 50%;
+    bottom:41px;
+}
+
+
+
+.footer .social .facebook {
+    margin-top:4rem;
+    
+}
+
+
+.footer span {
+    position: relative;
+    top: 30px;
+    font-size: 14px;
+    left: 0.10rem;
+
+}
+    
+
+input[type="submit"]{
+    background: rgb(33, 202, 33);
+    text-transform: uppercase;
+    font-size: 12px;
+    padding:5px 5px;
+    margin-top: 10px;
+    border-radius: 2px;
+    letter-spacing: 2;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s;
+}
+
+
+input[type="submit"]:hover {
+    letter-spacing: 2px;
+    color: black;
+    transition: 0.3s;
+}
+
+
+.footer {
+    margin-bottom: 20px;
+    margin-right:7px;
+    text-align: center;
+}
+
+.social  {
+    padding: 2rem;
+}
+
+
+
+.social .facebook a {
+    margin-bottom: 20px;
+    background: #166FE5;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+}
+
+
+.social .google a {
+    position: relative;
+    top: 40px;
+    background: #EA4335;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+
+}
+
+
+
+
+.bemh1 {
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    right: 199px;
+    top: 9rem;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+.p1 {
+    color: rgb(248, 248, 248);
+    text-align: center;
+    position:relative;
+    top: 20px;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
